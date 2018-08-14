@@ -1,0 +1,9 @@
+
+.comments {
+  margin-left: 40px;
+}
+
+.comment__list {
+  height: 415px;
+  overflow: auto;
+}

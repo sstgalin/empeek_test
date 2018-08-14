@@ -1,0 +1,40 @@
+:root {
+  --link-color: #3F51B5;
+  --gray: #2b2e3d;
+  --gray-light: #f9f9f9;
+  --gray-header: #575A68;
+  --gray-border: #CFCFCF;
+  --oceanic: #27CCC0;
+  --pink: #FF879F;
+  --orange: #FF8A00;
+  --blue: #47568C;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'Source Sans', sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+}
+
+#root > div {
+  flex: 1;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}

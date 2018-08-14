@@ -1,0 +1,21 @@
+
+.sidebar {
+  width: 270px;
+  padding: 30px;
+  background-color: var(--gray);
+}
+
+.sidebar__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 36px;
+  margin: 0px 0px 10px;
+}
+
+.sidebar__sub-title {
+  color: #808080;
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0;
+}

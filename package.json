@@ -1,0 +1,35 @@
+{
+  "name": "empeek_test",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://sstgalin.github.io",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint 'src/**/*.js'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.pick": "^4.4.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^5.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-plugin-import": "^2.13.0"
+  }
+}
